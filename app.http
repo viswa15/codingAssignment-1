@@ -1,1 +1,40 @@
-delete http://localhost:3000/todos/14/
+get http://localhost:3000/todos/?priority=HIGH/
+
+###
+
+
+delete http://localhost:3000/todos/3/
+
+
+### 
+get http://localhost:3000/todos/?category=viswa
+
+###
+get http://localhost:3000/todos/?status=DONE/
+
+###
+get http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+get http://localhost:3000/todos/2/
+
+###
+get http://localhost:3000/todos/?priority=AVERAGE
+
+###
+get http://localhost:3000/todos/?category=SLEEP
+
+###
+get http://localhost:3000/agenda/?date=2021-12-12
+
+###
+post http://localhost:3000/todos/
+
+###
+get http://localhost:3000/todos/&priority=GOOD
+
+###
+get http://localhost:3000/todos/2/
+
+###
+get http://localhost:3000/todos/?category=virat
